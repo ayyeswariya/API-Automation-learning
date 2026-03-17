@@ -169,6 +169,7 @@ public class FirstAPITest extends BaseTest{
         Assert.assertEquals(responsePost.getUserId(), 1);
 
         System.out.println("✅ Deserialization working perfectly");
+        System.out.println("Checking git commit as well");
     }
 
 }
